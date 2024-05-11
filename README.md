@@ -18,6 +18,9 @@ To demonstrate Canary deployments and the auto-rollback feature, we will update 
 This notebook is organized in 4 steps -
 
 Step 1 creates the models and Endpoint Configurations required for the 3 scenarios - the baseline, the update containing the incompatible model version and the update containing the correct model version.
+
 Step 2 invokes the baseline Endpoint prior to the update.
+
 Step 3 specifies the CloudWatch alarms used to trigger the rollbacks.
+
 Finally in step 4, we update the endpoint to trigger a rollback and demonstrate a successful update.
